@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ds-ml-challenge"
+version = "0.1.0"
+description = ""
+authors = ["stewart hu <stewarthu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+streamlit = "^1.33.0"
+langchain-openai = "^0.1.1"
+langchain-community = "^0.0.31"
+langchain-core = "^0.1.40"
+openai = "^1.16.2"
+plotly = "^5.20.0"
+pandas = "^2.2.1"
+statsmodels = "^0.14.1"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+scikit-learn = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
